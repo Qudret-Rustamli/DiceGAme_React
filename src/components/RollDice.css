@@ -1,0 +1,44 @@
+.roll-dice{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 90vh;
+}
+
+.rolldice-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    align-self: center;
+   
+    width: 15em;
+    padding: 1.5em;
+    font-size: 1em;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: orchid;
+    margin: 3rem;
+}
+
+.btn:hover{
+    background-color: darkblue;
+    cursor: pointer;
+   
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.panel1,.panel2{
+    display: flex;
+    flex-direction: column;
+
+}
+.panel1 h2,.panel2 h2{
+    text-align: center;
+    font-size: 2rem;
+    
+}
